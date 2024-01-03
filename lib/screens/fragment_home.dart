@@ -221,12 +221,12 @@ class _FragmentHomeState extends State<FragmentHome> {
                           MyText(
                             DateFormat('EEE, dd MMM yyyy | HH:mm:ss').format(
                                 DateTime.parse(prov.lastFeedingTimestamp!)),
-                            weight: FontWeight.w500,
-                            size: 20,
+                            weight: FontWeight.w600,
                           ),
                           MyText(
                             tsDistance(prov.lastFeedingTimestamp ?? '0'),
                             isItalic: true,
+                            size: 12,
                           )
                         ],
                       )
